@@ -4,6 +4,7 @@ from answers import Answers
 from difficulty import Difficulty
 
 
+#the settings for questions are here 
 class Question:
     def __init__(self, question_string: str, answers: Answers, points: int, difficulty: Difficulty) -> None:
         self._question_string = question_string
