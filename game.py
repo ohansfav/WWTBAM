@@ -10,7 +10,7 @@ from ansi_color_codes import Color
 
 from question_service import QuestionService, NoMoreQuestionsForDifficultyError
 
-
+#created a class to put all functions here
 class WhoWantsToBeAMillionaire:
     def __init__(self, question_service: QuestionService) -> None:
         self._question_service = question_service
