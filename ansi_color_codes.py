@@ -1,3 +1,4 @@
+#all colors are put into a class
 class Color:
     """ ANSI color codes """
     BLACK = "\033[0;30m"
