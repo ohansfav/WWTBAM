@@ -18,6 +18,8 @@ class WhoWantsToBeAMillionaire:
         self._points = 0
         self._terminal_width = shutil.get_terminal_size()[0]
 
+    
+    #function to start page
     def start_game(self) -> int:
         self._clear_screen()
         print("Welcome to 'Who wants to be a millionaire?'".center(self._terminal_width), end="\n\n\n")
@@ -36,7 +38,8 @@ class WhoWantsToBeAMillionaire:
             return 0
         return 0
 
-    def _end_game(self) -> None:
+    #function to end game
+        def _end_game(self) -> None:
         self._clear_screen()
         if not self._points > 1_000_000:
             print("That was not the correct answer. You lost :(")
@@ -46,6 +49,8 @@ class WhoWantsToBeAMillionaire:
 
         input("Press any key to exit...")
         self._clear_screen()
+
+     #function for next round
 
     def _play_round(self, question: Optional[Question]) -> bool:
         self._clear_screen()
