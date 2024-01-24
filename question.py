@@ -1,3 +1,4 @@
+#using shuffle from random lib
 from random import shuffle
 
 from answers import Answers
