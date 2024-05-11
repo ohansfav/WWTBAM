@@ -1,6 +1,6 @@
 from enum import IntEnum
 
-#class for difficulty 
+#class for difficulty....
 class Difficulty(IntEnum):
     VERY_EASY = 0
     EASY = 1
